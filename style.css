@@ -38,7 +38,8 @@ main {
     padding: 15px;
     border: none;
     border-radius: 15px;
-    background-color: rgba(25, 181, 209, 0.295);   
+    background-color: rgba(200, 85, 211, 0.164);
+    box-shadow: 1px 1px 50px rgb(255, 255, 255);
     text-align: center; 
 }
 
