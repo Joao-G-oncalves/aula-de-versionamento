@@ -4,6 +4,7 @@
 body{
     background: url(https://images.akamai.steamusercontent.com/ugc/493519450183023883/1A7CCAE002EEE3136ABA092397CE52D8F86E5B73/);
     background-size: cover;
+    position: relative;
     
 }
 @media (max-width: 850px) {
@@ -39,11 +40,13 @@ main {
     border: none;
     border-radius: 15px;
     background-color: rgba(200, 85, 211, 0.164);
+    
     box-shadow: 1px 1px 50px rgb(255, 255, 255);
     text-align: center; 
+    
 }
 
 footer p {
-    align-items: end;
+    margin-top: 100px;
     text-align: center;
 }
