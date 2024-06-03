@@ -1,0 +1,43 @@
+*{
+    color: white;
+}
+body{
+    background: url(https://images.akamai.steamusercontent.com/ugc/493519450183023883/1A7CCAE002EEE3136ABA092397CE52D8F86E5B73/);
+    background-size: cover;
+    
+}
+header h1{
+    padding: 5px 20px 0;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+    padding: 20px;   
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+main {
+    margin: auto;
+    margin-top: 30px;
+    max-width: 900px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(25, 181, 209, 0.295);   
+    text-align: center; 
+}
+
+footer p {
+    align-items: end;
+    text-align: center;
+}
