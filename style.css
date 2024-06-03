@@ -6,6 +6,11 @@ body{
     background-size: cover;
     
 }
+@media (max-width: 850px) {
+    body {
+        background-size: contain;
+    }
+}
 header h1{
     padding: 5px 20px 0;
 }
